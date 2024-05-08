@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Genrator</title>
+    <link rel="stylesheet" href="styles.css">
+
+</head>
+
+<body>
+
+    <div>
+        <label for="personName">Name of the person you are using this for</label>
+        <input class="personName" type="text">
+    </div>
+
+    <div>
+        <label for="language">Choose Language</label>
+        <select name="lang" class="language">
+            <option value="english">English</option>
+            <option value="hindi">Hindi</option>
+        </select>
+    </div>
+
+    <div>
+        <label for="rating">Rating for gaali (1 to 10)</label>
+        <input class="rating" type="text">
+    </div>
+   
+    <div id="messageArea"></div>
+   
+
+    <div>
+        <button onclick="genrate()">Genrate!</button>
+    </div>
+ 
+    <script src="script.js"></script>
+</body>
+
+</html>
